@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'CRUD-en-Angular';
 
   alumnosArray: alumnos[] =[
-{id: 1, name:"Virgilio", carrera:"LDSW"},
-{  id: 2, name:"Juan", carrera:"LDSW"}, 
-{id: 3, name:"Pedro", carrera:"LDSW"}
+{id: 1, name:"Victor Valdez", carrera:"Programación"},
+{  id: 2, name:"Juan Perez", carrera:"Derecho"}, 
+{id: 3, name:"Pablo Hernandez", carrera:"Aduanas"}
  ];
 selectedAlumnos: alumnos = new alumnos(); 
 openForedit(alumnos: alumnos) {
